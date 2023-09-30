@@ -3,7 +3,8 @@
 
 #            === FLASHING WITH STOCK BOOTLOADER ===
 # You should make firmware for STM32F446 with bootloader offset 64KiB
-# and serial (on USART1 PA10/PA9)communication. Move firmware.bin to
+# and serial (on USART1 PA10/PA9)communication. If you have a GD chip 
+# (STM clone) select "Disable SWD AT START-up". Move firmware.bin to
 # clean sd card, make dir: update and put .bin file there. 
 
 [mcu]
